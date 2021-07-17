@@ -47,8 +47,6 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, View
         startActivityForResult(checkTTSIntent, 1122);
     }
 
-
-
     @Override
     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
